@@ -7,7 +7,11 @@ export default class NavBar extends Component {
   render(){
     return(
        <nav >
+<<<<<<< HEAD
        <img src= { image }/>
+=======
+       <img src={image} />
+>>>>>>> 62d6a2d33de7eda2035f7a37f4098167395364a7
         <ul  className= 'nav-elem'>
           <Link to={"/Login"}><li><button className='login'>Sign in</button> </li></Link>
           <Link to={"/canvas"}><li>Canvas</li></Link>
